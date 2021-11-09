@@ -4,11 +4,11 @@ class Conexion{
 
     public static function conect(){
         try{
-            
-            $db = new PDO ("mysql:host=localhost;dbname=proyectogestproyti;","root","12345678");
             /*
-            $db = new PDO ("mysql:host=bhjh5vqcwadclhqmkhsu-mysql.services.clever-cloud.com;dbname=bhjh5vqcwadclhqmkhsu;","u108wu77a4nvxery","qNzGXEkMs7HbyoUW4ecR");
+            $db = new PDO ("mysql:host=localhost;dbname=proyectogestproyti;","root","12345678");
             */
+            $db = new PDO ("mysql:host=bmoydgsdmzkj7jowgmqz-mysql.services.clever-cloud.com;dbname=bmoydgsdmzkj7jowgmqz;","u59mbpprfcuaiai8","txaxkZMsquuiqFnXnNHB");
+            
             return $db;
         }catch(PDOException $e){
             die("Error: ". $e->getMessage());
