@@ -19,7 +19,7 @@ class EnviarCorreo{
             $mail->Host       = 'smtp.gmail.com';
             $mail->SMTPAuth   = true;
             $mail->Username   = 'AngelinaAtelierConfection@gmail.com';
-            $mail->Password   = 'angelinaatelier.321';
+            $mail->Password   = 'angelinaatelier321';
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port       = 587;
 
