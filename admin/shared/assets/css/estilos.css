@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+
+body {
+    text-align: center;
+    background-image: url('../modelos/icons/menuBienvenida.jpg');
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar{
+    
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 10px;  
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.form-group{
+    text-align: left;
+}
+
+th {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
