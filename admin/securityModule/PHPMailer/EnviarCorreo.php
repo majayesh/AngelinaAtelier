@@ -21,7 +21,7 @@ class EnviarCorreo{
             $mail->Username   = 'AngelinaAtelierConfection@gmail.com';
             $mail->Password   = 'angelinaatelier321';
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-            $mail->Port       = 587;
+            $mail->Port       = 587; // 465
 
             $mail->setFrom('AngelinaAtelierConfection@gmail.com', 'Angelina Atelier Confection');
             $mail->addAddress($destinatario);

@@ -44,7 +44,7 @@ fields: {
         validators: {
             stringLength: {
                 min: 8,
-                max: 8,
+                max: 9,
                 message:"Ingrese los 8 dígitos de su DNI"
             },
             notEmpty: {
