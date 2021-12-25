@@ -36,7 +36,7 @@ if (isset($_POST['btnPrivilegio'])) {
             "idtrabajador" => $_POST['btnModificarUsuario'],
             "email" => $_POST['email'],
             "usuario" => $_POST['usuario'],
-            "contrasena" => password_hash($_POST['contrasena'], PASSWORD_BCRYPT),
+            "contrasena" => md5($_POST['contrasena']),
             "idestado" => $_POST['estado'],
             "privilegios" => $arrayasignados
         );

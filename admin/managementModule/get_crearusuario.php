@@ -29,7 +29,7 @@ if (isset($_POST['btnPrivilegio'])) {
         "telefono" => $_POST['telefono'],
         "email" => $_POST['email'],
         "usuario" => $_POST['usuario'],
-        "contrasena" => password_hash($_POST['contrasena'], PASSWORD_BCRYPT),
+        "contrasena" => md5($_POST['contrasena']),
         "idestado" => $_POST['estado'],
         "privilegios" => $arrayasignados
     );

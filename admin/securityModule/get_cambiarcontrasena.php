@@ -10,7 +10,7 @@ if (isset($_POST['btnPrivilegio'])) {
     $respuesta = $obCambiar->verificarContrasenas($_POST["contrasenanueva"],$_POST["contrasenanuevaconfirmar"]);
     
     if ($respuesta!=0) {
-        $obCambiar->cambiarContrasena($_POST["contrasenaanterior"],password_hash($_POST["contrasenanueva"], PASSWORD_BCRYPT));
+        $obCambiar->cambiarContrasena($_POST["contrasenaanterior"],md5($_POST["contrasenanueva"]));
     } else {
         include_once '../shared/formMensaje.php';
         $obMensaje = new formMensaje();

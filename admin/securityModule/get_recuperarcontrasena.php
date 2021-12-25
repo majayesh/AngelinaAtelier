@@ -37,7 +37,7 @@ if (isset($_POST['btnSiguienteFormCorreo'])) {
     $respuesta = $obValidarRespuesta->verificarContrasenas($_POST["contrasenanueva"],$_POST["contrasenanuevaconfirmar"]);
     
     if ($respuesta!=0) {
-        $obValidarRespuesta->establecerNuevaContrasena($_POST["btnCambiarContrasena"],password_hash($_POST["contrasenanueva"], PASSWORD_BCRYPT));
+        $obValidarRespuesta->establecerNuevaContrasena($_POST["btnCambiarContrasena"],md5($_POST["contrasenanueva"]));
     } else {
         include_once '../shared/formMensaje.php';
         $obMensaje = new formMensaje();
