@@ -51,7 +51,7 @@ class EuUsuario extends EuTrabajador
 
             $verificarContrasena = $stm->fetchAll(PDO::FETCH_OBJ); //devuelve el objeto, caso contrario "null".
 
-            if($password == $verificarContrasena[0]->contrasena){
+            if(md5($password) == $verificarContrasena[0]->contrasena){
                 return 1;
             } else {
                 return 0;
