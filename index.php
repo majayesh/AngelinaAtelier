@@ -19,17 +19,6 @@
     
     
     
-    <!-- PARA CHATBOT -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-    <link rel="stylesheet" href="static/css/chat.css">
-    <link rel="stylesheet" href="static/css/chatBot.css">
-    <link rel="stylesheet" href="static/css/typing.css">
-    
-    
-    
-    
-    
     
     
     
@@ -44,12 +33,6 @@
     <meta name="theme-color" content="#478ac9">
   </head>
   <body data-home-page="Index.php" data-home-page-title="Index" class="u-body"><header class="u-clearfix u-header u-header" id="sec-11b3"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        
-        <?php
-            
-            include("./chatBot.php");
-            
-        ?>
         
         <a href="/index.php" class="u-image u-logo u-image-1">
           <img src="static/images/default-logo.png" class="u-logo-image u-logo-image-1">
@@ -346,11 +329,6 @@
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-3dc0"><div class="u-clearfix u-sheet u-sheet-1">
         <p class="u-small-text u-text u-text-variant u-text-1">Angelina Atelier, desde 2015 creando prendas al gusto y medida del cliente.</p>
       </div></footer>
-      
-      
-    <!-- PARA CHATBOT -->
-    <script src="static/js/Chat.js"></script>
-    <script src="static/js/chatBot.js"></script>
     
     
   </body>

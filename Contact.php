@@ -28,15 +28,6 @@ $obNegocio = $obNegocio->obtener_negocio();
     
     
     
-    <!-- PARA CHATBOT -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-    <link rel="stylesheet" href="static/css/chat.css">
-    <link rel="stylesheet" href="static/css/chatBot.css">
-    <link rel="stylesheet" href="static/css/typing.css">
-    
-    
-    
     
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
@@ -49,12 +40,6 @@ $obNegocio = $obNegocio->obtener_negocio();
     <meta name="theme-color" content="#478ac9">
   </head>
   <body class="u-body"><header class="u-clearfix u-header u-header" id="sec-9131"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        
-        <?php
-            
-            include("./chatBot.php");
-            
-        ?>
         
         <a href="/index.php" class="u-image u-logo u-image-1">
           <img src="static/images/default-logo.png" class="u-logo-image u-logo-image-1">
@@ -114,12 +99,6 @@ $obNegocio = $obNegocio->obtener_negocio();
         <a href="https://wa.me/51993665517"><img src="static/images/whatsapp32.png" alt="" class="social-network-image"></a>
         <a href="mailto:AngelinaAtelierConfection@gmail.com"><img src="static/images/gmail32.png" alt="" class="social-network-image"></a>
     </div><br></footer>
-      
-    
-    
-    <!-- PARA CHATBOT -->
-    <script src="static/js/Chat.js"></script>
-    <script src="static/js/chatBot.js"></script>
       
       
   </body>

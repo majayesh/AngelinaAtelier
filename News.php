@@ -32,13 +32,6 @@ $obNoticias = $obNoticias->listar_noticias_clientes();
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     
     
-    <!-- PARA CHATBOT -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="static/css/chat.css">
-    <link rel="stylesheet" href="static/css/chatBot.css">
-    <link rel="stylesheet" href="static/css/typing.css">
-    
-    
     <script src="static/js/verNoticia.js" type="text/javascript"></script>
           
     
@@ -53,12 +46,6 @@ $obNoticias = $obNoticias->listar_noticias_clientes();
     <meta name="theme-color" content="#478ac9">
   </head>
   <body class="u-body"><header class="u-clearfix u-header u-header" id="sec-11b3"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        
-        <?php
-            
-            include("./chatBot.php");
-            
-        ?>
         
         <a href="/index.php" class="u-image u-logo u-image-1">
           <img src="static/images/default-logo.png" class="u-logo-image u-logo-image-1">
@@ -198,10 +185,6 @@ $obNoticias = $obNoticias->listar_noticias_clientes();
             });
         }
     </script>
-    
-    <!-- PARA CHATBOT -->
-    <script src="static/js/Chat.js"></script>
-    <script src="static/js/chatBot.js"></script>
     
   </body>
 </html>

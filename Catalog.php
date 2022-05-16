@@ -48,12 +48,6 @@ $obTiposPrendas = $obTiposPrendas->listar_tipos_prendas();
     -->
     
     
-    <!-- PARA CHATBOT -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="static/css/chat.css">
-    <link rel="stylesheet" href="static/css/chatBot.css">
-    <link rel="stylesheet" href="static/css/typing.css">
-    
     
     <script src="static/js/verModelo.js" type="text/javascript"></script>
     
@@ -71,12 +65,6 @@ $obTiposPrendas = $obTiposPrendas->listar_tipos_prendas();
     
   </head>
   <body id="home" class="wide">
-      
-      <?php
-            
-            include("./chatBot.php");
-            
-        ?>
       
       <header class="u-clearfix u-header u-header" id="sec-11b3"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <a href="/index.php" class="u-image u-logo u-image-1">
@@ -290,10 +278,6 @@ $obTiposPrendas = $obTiposPrendas->listar_tipos_prendas();
         }
         */
       </script>
-    
-    <!-- PARA CHATBOT -->
-    <script src="static/js/Chat.js"></script>
-    <script src="static/js/chatBot.js"></script>
       
   </body>
 </html>
